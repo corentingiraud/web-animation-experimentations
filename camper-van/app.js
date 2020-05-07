@@ -40,15 +40,15 @@ $(function () {
         // .addIndicators()
         .addTo(controller);
 
-    var scene1 = new ScrollMagic.Scene({ triggerHook: 1, triggerElement: "#first", duration: 1000 })
+    var scene1 = new ScrollMagic.Scene({ triggerHook: 1, triggerElement: "#first" })
         .setTween(tweenFirst)
         // .addIndicators()
         .addTo(controller);
-    var scene2 = new ScrollMagic.Scene({ triggerHook: 1, triggerElement: "#second", duration: 1000 })
+    var scene2 = new ScrollMagic.Scene({ triggerHook: 1, triggerElement: "#second" })
         .setTween(tweenSecond)
         // .addIndicators()
         .addTo(controller);
-    var scene3 = new ScrollMagic.Scene({ triggerHook: 1, triggerElement: "#third", duration: 1000 })
+    var scene3 = new ScrollMagic.Scene({ triggerHook: 1, triggerElement: "#third" })
         .setTween(tweenThird)
         // .addIndicators()
         .addTo(controller);
